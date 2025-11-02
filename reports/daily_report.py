@@ -140,6 +140,12 @@ def generate_daily_report():
 
 
 # -----------------------------
+# Test run immediately
+# -----------------------------
+generate_daily_report()
+
+
+# -----------------------------
 # 7️⃣ Optional: Schedule Daily
 # -----------------------------
 # Test run
