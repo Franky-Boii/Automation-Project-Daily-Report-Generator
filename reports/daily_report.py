@@ -143,7 +143,7 @@ def generate_daily_report():
 # 7️⃣ Optional: Schedule Daily
 # -----------------------------
 # Test run
-schedule.every().day.at("06:00").do(generate_daily_report)
+schedule.every().day.at("23:50").do(generate_daily_report)
 
 print("🕒 Scheduler started... Press CTRL+C to stop.")
 while True:
